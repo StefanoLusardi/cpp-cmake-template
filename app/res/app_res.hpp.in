@@ -1,0 +1,5 @@
+#define MyProject_VERSION_MAJOR @TeiaCore_VERSION_MAJOR@
+#define MyProject_VERSION_MINOR @TeiaCore_VERSION_MINOR@
+#define MyProject_VERSION_PATCH @TeiaCore_VERSION_MINOR@
+		
+#define MyProject_APP_NAME "${MyProject_APP_NAME}"
