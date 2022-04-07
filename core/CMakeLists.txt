@@ -7,6 +7,8 @@ add_library(${PROJECT_NAME} SHARED)
 # Define project files
 target_sources(${PROJECT_NAME} PRIVATE u_${PROJECT_NAME}.cpp)
 
+target_compile_definitions(${PROJECT_NAME} PRIVATE LIB_CORE)
+
 # Setup precompiled headers
 target_precompile_headers(${PROJECT_NAME} PRIVATE pch/${PROJECT_NAME}_pch.hpp)
 
